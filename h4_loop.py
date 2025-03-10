@@ -1,11 +1,14 @@
 def fonk(list,list2):
+    list3 = []
 
     for i in list2:
         print(i)
         s = 0
         for j in i:
             s = s + 1
+            list3.append(s)
         print(s)
+        print(list3)
 
     ayırma = list.split(" ")
 
